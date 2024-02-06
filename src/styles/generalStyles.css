@@ -1,0 +1,52 @@
+/*Estilos Header*/
+.itemSelected {
+    color: var(--secondary-main);
+    border-bottom: 1px solid var(--secondary-main);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    
+    @media screen and (max-width: 768px) {
+        color: var(--primary-main);
+        border-bottom: none;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+}
+
+/*Estilos Task*/
+.Pending {
+    outline: 2px solid var(--accent-blue);
+}
+
+.Start {
+    outline: 2px solid var(--accent-yellow);
+}
+
+.Completed {
+    outline: 2px solid var(--accent-green);
+}
+
+/*Estilos TaskFinder*/
+.TodoSearch {
+    background: var(--white);
+    border-radius: 8px;
+    border: 2px solid var(--primary-main);
+    padding: 10px 0;
+    width: 100%;
+    height: 16px;
+    text-align: center;
+    color: var(--black);
+}
+
+.TodoSearch::placeholder {
+    color: var(--gray-light);
+}
+
+.TodoSearch:focus {
+    outline-color: var(--secondary-main);
+}
+
