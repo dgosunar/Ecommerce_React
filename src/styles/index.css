@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -33,8 +37,6 @@ img {
 }
 
 :root {
-  --default-background-color: #ffffff;
-
   --gray: #A5A5A5;
   --gray-light:#cbcbcb;
   --gray-dark: #424242;
@@ -94,6 +96,13 @@ img {
   font-size: 14px;
   font-style: normal;
   font-weight: 300;
+  line-height: normal;
+}
+
+.generalTextB {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
   line-height: normal;
 }
 

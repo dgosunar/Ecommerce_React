@@ -29,7 +29,7 @@ export const Container = styled.div`
     gap: 10px;
     justify-content: flex-start;
     align-items: flex-start;
-    height: calc(100% - 80px);
+    height: calc(100%);
     color: var(--white);
     overflow-y: auto;
     // box-shadow: 0px 4px 10px 0px var(--black);
@@ -39,6 +39,7 @@ export const Container = styled.div`
     }
     @media screen and (max-width: 768px) {
         margin: 0px 15px 0px 15px;
+        height: 100%;
     }
     @media screen and (max-width: 600px) {
     }

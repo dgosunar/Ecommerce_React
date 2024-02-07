@@ -69,7 +69,8 @@ export const Searcher = styled.div`
 
 export const Products = styled.div`
     display: flex;
-    gap: 16px 16px;
+    justify-content: center;
+    gap: 10px 10px;
     width: 100%;
     height: 100%;
     border-radius: 8px;
@@ -87,7 +88,7 @@ export const ProductCard = styled.div`
     flex-direction: column;
     gap: 7.5px;
     padding: 10px;
-    width: 228px;
+    width: 217px;
     // height: 358px;
     border-radius: 8px;
     background: var(--white);
@@ -111,8 +112,10 @@ export const ProductCard = styled.div`
       overflow: hidden;
       height: 19px;
     }
-    
+    @media screen and (max-width: 768px) {
+      width: calc(33% - 5px);
+    }
     @media screen and (max-width: 600px) {
-      width: calc(50% - 27px);
+      width: calc(50% - 5px);
     }
 `;
