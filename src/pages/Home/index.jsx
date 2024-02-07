@@ -88,7 +88,6 @@ export const ProductCard = styled.div`
     gap: 7.5px;
     padding: 10px;
     width: 228px;
-    height: 317.5px;
     // height: 358px;
     border-radius: 8px;
     background: var(--white);
@@ -115,6 +114,5 @@ export const ProductCard = styled.div`
     
     @media screen and (max-width: 600px) {
       width: calc(50% - 27px);
-      height: 260px;
     }
 `;
